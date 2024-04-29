@@ -1,4 +1,8 @@
-.bg-gradient {
-    background: rgb(176,250,137);
-    background: linear-gradient(214deg, rgba(176,250,137,1) 0%, rgba(205,242,196,1) 100%);
+
+body {
+   
+   
+        font-family: "Amatic SC", sans-serif;
+      font-size: larger;
+      
 }
