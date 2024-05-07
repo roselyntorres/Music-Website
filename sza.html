@@ -6,26 +6,65 @@
     <title>CTRL-SZA</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link rel="stylesheet" href="css/sza.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
 </head>
   <body>
     <!-- As a link -->
-<nav class="navbar bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">SZA</a>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg bg-success">
+       
+      <div class="container-fluid d-flex justify-content-center">
+          <a class="navbar-brand text-light" href="index.html">Music Library</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse bg-success" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Artists
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">SZA</a></li>
+                  <li><a class="dropdown-item" href="#">Travis Scott</a></li>
+                  <li><a class="dropdown-item" href="#">Bad Bunny</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Explore More!</a></li>
+                </ul>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Albums
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="sza.html">CTRL-SZA</a></li>
+                    <li><a class="dropdown-item" href="travis.html">UTOPIA-Travis Scott</a></li>
+                    <li><a class="dropdown-item" href="badbunny.html">Un Verano Sin Ti-Bad Bunny</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Explore More!</a></li>
+                  </ul>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark" type="submit">Search!</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<br>
+       
+<div class="container-fluid justify-content-center">
+      <h1>All About CTRL</h1> 
 
-  <h1>All About CTRL</h1> 
- 
+<img src="img/sza-grammys-2024-020624-tout-eb258f58d73443a2b95f6a02a1685c9c.jpg" alt="" height="500">
+<br>
 
-  <a href="https://music.apple.com/us/artist/sza/605800394">Listen on Apple Music!</a>
-
-
+      <div class="container-fluid justify-content-center d-flex">
   <div class="audio-player">
     <div class="player-controls">
       <div class="song-info">
-        <div class="song-title">Song Title</div>
-        <p class="artist">Artist</p>
+        <div class="song-title">CTRL</div>
+        <p class="artist">SZA</p>
       </div>
       <div class="progress-bar">
         <div class="progress"></div>
@@ -42,11 +81,48 @@
       </div>
     </div>
   </div>
-  
+</div>
+  <br>
+<div class="container-fluid justify-content-center d-flex">
+      <div class="row">
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="img/apple_music-update_hero_08242021.jpg.news_app_ed.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Listen on Apple Music!</h5>
+          <p class="card-text"></p>
+          <a href="https://music.apple.com/us/artist/sza/605800394" class="btn btn-success">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="img/spotify icon.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Listen on Apple Music!</h5>
+          <p class="card-text"></p>
+          <a href="https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP" class="btn btn-success">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="img/sharing_fallback.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">View All Lyrics!</h5>
+          <p class="card-text"></p>
+          <a href="https://genius.com/albums/Sza/Ctrl-deluxe" class="btn btn-success">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+  </div>
+
+</div>
 
 
-    <a href="https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP">Listen on Spotifty!</a>
-   <a href="https://genius.com/albums/Sza/Ctrl-deluxe">View all Lyrics!</a>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -1,3 +1,11 @@
+
+body {
+   
+   
+  font-family: "Amatic SC", sans-serif;
+font-size: bold;
+text-align: center;
+}
 .audio-player {
     display: flex;
     align-items: center;
@@ -111,3 +119,8 @@
     }
   }
   
+  ul {
+    list-style: none;
+  }
+  
+ 
