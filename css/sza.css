@@ -1,3 +1,11 @@
+.bg-success {
+  background: rgb(78,143,47);
+background: radial-gradient(circle, rgba(78,143,47,1) 0%, rgba(105,142,103,1) 100%) !important;
+}
+.btn-success {
+  background: rgb(78,143,47);
+}
+
 
 body {
    
@@ -51,7 +59,7 @@ text-align: center;
   .progress {
     width: 0;
     height: 100%;
-    background-color: #45926b;
+    background-color: #4e8f2f;
     animation: progress-animation 10s linear infinite;
   }
   

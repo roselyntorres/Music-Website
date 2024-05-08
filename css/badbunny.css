@@ -1,0 +1,139 @@
+.bg-dark{
+    background: rgb(233,206,168);
+    background: linear-gradient(90deg, rgba(233,206,168,1) 0%, rgba(245,237,213,1) 50%, rgba(168,203,176,1) 100%)!important;
+
+}
+.btn-light {
+    background: rgb(233,206,168);
+background: linear-gradient(90deg, rgba(233,206,168,1) 0%, rgba(245,237,213,1) 50%, rgba(168,203,176,1) 100%) !important;
+
+
+
+}
+
+body {
+   
+   
+    font-family: "Amatic SC", sans-serif;
+  font-size: bold;
+  text-align: center;
+ 
+  }
+  .audio-player {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 300px;
+      height: 80px;
+      background-color: #f3f3f3;
+      border-radius: 8px;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+    
+    .player-controls {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .song-info {
+      margin-bottom: 4px;
+    }
+    
+    .song-title {
+      font-size: 16px;
+      color: #333;
+      margin: 0;
+    }
+    
+    .artist {
+      font-size: 12px;
+      color: #666;
+      margin: 0;
+    }
+    
+    .progress-bar {
+      width: 100%;
+      height: 4px;
+      background-color: #ddd;
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    
+    .progress {
+      width: 0;
+      height: 100%;
+      background-color: #e7be6c;
+      animation: progress-animation 10s linear infinite;
+    }
+    
+    .buttons {
+      display: flex;
+      align-items: center;
+      margin-top: 4px;
+    }
+    
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      outline: none;
+    }
+    
+    .play-btn,
+    .pause-btn,
+    .skip-btn,
+    .volume-btn {
+      font-size: 16px;
+      color: #666;
+      margin-right: 8px;
+      transition: transform 0.2s ease-in-out;
+    }
+    
+    .play-btn:hover,
+    .pause-btn:hover,
+    .skip-btn:hover,
+    .volume-btn:hover {
+      transform: scale(1.2);
+    }
+    
+    .volume-slider {
+      width: 100px;
+      height: 5px;
+      background-color: #ccc;
+      position: relative;
+      margin-left: 10px;
+    }
+    
+    .volume-slider-bar {
+      height: 100%;
+      background-color: #666;
+    }
+    
+    .volume-slider-handle {
+      width: 16px;
+      height: 16px;
+      background-color: #666;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    
+    @keyframes progress-animation {
+      0% {
+        width: 0;
+      }
+    
+      100% {
+        width: 100%;
+      }
+    }
+    
+    ul {
+      list-style: none;
+    }
+    
+   
